@@ -1,34 +1,45 @@
-# React + Vite
+# 💱 Currency Converter App (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and beautiful **Currency Converter** built using **React.js**.  
+It allows users to convert one currency into another using real-time exchange rates from the [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/exchange-api).
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧠 Features
 
-## React Compiler
+- 🌍 Real-time currency exchange rates  
+- 🔁 Swap between two currencies instantly  
+- 💰 Simple and clean UI with responsive design  
+- ⚡ Fast and lightweight (uses React Hooks)  
+- 🧩 Built using modern React concepts (`useState`, `useEffect`, custom hooks`)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend:**  
+- React.js  
+- Tailwind CSS  
+- JavaScript (ES6)  
 
+**API:**  
+- [Fawaz Ahmed Currency API](https://github.com/fawazahmed0/exchange-api)
 
+---
 
-// Step 1: API se data aaya
-const json = {
-  usd: {
-    inr: 83.2,
-    eur: 0.94,
-    jpy: 149.5
-  }
-};
+## ⚙️ How to Run Locally
 
-// Step 2: Tu currency select karta hai
-const currency = "usd";
+Follow these simple steps 👇
 
-// Step 3: Us currency ka andar ka data nikaal ke state mein daalna
-const selectedRates = json[currency]; // → { inr: 83.2, eur: 0.94, jpy: 149.5 }
-setData(selectedRates);
+```bash
+# 1️⃣ Clone this repository
+git clone https://github.com/sahil43karmakar/REACT-PROJECT-.git
+
+# 2️⃣ Move into the project folder
+cd REACT-PROJECT-
+
+# 3️⃣ Install dependencies
+npm install
+
+# 4️⃣ Start the development server
+npm start
